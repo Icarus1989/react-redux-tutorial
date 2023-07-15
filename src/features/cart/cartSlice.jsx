@@ -59,7 +59,6 @@ export const getCartItems = createAsyncThunk(
 			const res = await axios(url);
 			console.log(thunkAPI);
 			console.log(thunkAPI.getState());
-
 			// thunkAPI.dispatch(openModal());
 
 			// 77. Otteniamo l'error data non-serialized come prima, questo
